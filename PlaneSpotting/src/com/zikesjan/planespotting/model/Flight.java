@@ -10,7 +10,7 @@ public class Flight {
 	public String to;
 	public String fl;
 	
-	public Flight(String id, double lon, double lat, String type,
+	public Flight(String id, double lat, double lon, String type,
 			String registartion, String from, String to, String fl) {
 		super();
 		this.id = id;
